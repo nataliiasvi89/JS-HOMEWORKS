@@ -1,3 +1,5 @@
+"use strict";
+prompt("Вік");
 const price = prompt("Початкова ціна товару");
 const discount = prompt("Розмір знижки у відсотках (наприклад, 10, 15, 20)");
 if (Number(discount) > 0

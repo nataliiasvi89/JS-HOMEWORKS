@@ -11,6 +11,7 @@ const price2 = "UAH 999";
 const height = "180cm";
 const broken = "abc123";
 
+// If the first character is not a number, then it will be Nan
 console.log(
     `${price1} -> parseInt: ${parseInt(price1)}, parseFloat: ${parseFloat(price1)}`
 );
@@ -24,4 +25,3 @@ console.log(
     `${broken} -> parseInt: ${parseInt(broken)}, parseFloat: ${parseFloat(broken)}`
 );
 
-// If the first character is not a number, then it will be Nan.

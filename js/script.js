@@ -24,4 +24,4 @@ console.log(
     `${broken} -> parseInt: ${parseInt(broken)}, parseFloat: ${parseFloat(broken)}`
 );
 
-// If the first character is not a number, then it will be Nan
+// If the first character is not a number, then it will be Nan.
